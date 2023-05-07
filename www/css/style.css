@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f6f9;
+  }
+  
+  header {
+    background-color: #394867;
+    color: #f1f6f9;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  .image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .info {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .info h2 {
+    margin-top: 0;
+  }
+  
+  .info p {
+    margin-bottom: 20px;
+  }
+  
+  .find-me {
+    margin-top: 50px;
+  }
+  
+  .find-me h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .find-me a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+  }
+  
+  .find-me a:hover {
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+  }
+  
+  .fa {
+    font-size: 36px;
+  }
+  
